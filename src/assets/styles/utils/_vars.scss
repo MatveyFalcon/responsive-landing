@@ -9,11 +9,12 @@ $textColor: #333;
 
 // fonts
 $mainFont: Arial, sans-serif;
-$iconFont: 'Socialico';
+$iconFont: "Socialico";
 
 // shadows
 $mainShadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
 
 // screens
-$tablet: '(min-width: 767px)';
-$desktop: '(min-width: 1024px)';
+$tablet: "(min-width: 767px)";
+$desktop: "(min-width: 1024px)";
+$projector: "(min-width: 1200px)";

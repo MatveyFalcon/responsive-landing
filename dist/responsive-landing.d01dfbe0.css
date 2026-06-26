@@ -237,7 +237,7 @@ h1, h2, h3 {
   padding: 5rem 1.5rem;
 }
 
-@media (width >= 1024px) {
+@media (width >= 1200px) {
   .stage {
     padding-left: 0;
     padding-right: 0;
@@ -317,7 +317,7 @@ h1, h2, h3 {
   padding: 5rem 1.5rem;
 }
 
-@media (width >= 1024px) {
+@media (width >= 1200px) {
   .about {
     padding-left: 0;
     padding-right: 0;
@@ -344,6 +344,7 @@ h1, h2, h3 {
   text-align: left;
   margin-bottom: 3rem;
   font-size: 3rem;
+  font-weight: normal;
   line-height: 1.2;
 }
 
@@ -380,6 +381,61 @@ h1, h2, h3 {
   .about__image {
     width: 430px;
     margin-left: 10rem;
+  }
+}
+
+.features {
+  padding: 5rem 1.5rem;
+}
+
+@media (width >= 1200px) {
+  .features {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.features {
+  background-color: #f5f5f5;
+}
+
+.features__title {
+  color: #445161;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.features__items {
+  flex-direction: column;
+  display: flex;
+}
+
+@media (width >= 767px) {
+  .features__items {
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+}
+
+.features__items .feature {
+  margin-bottom: 1.5rem;
+}
+
+.features__items .feature:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 767px) {
+  .features__items .feature {
+    flex-basis: calc(50% - 1.1rem);
+    margin-bottom: 0;
+  }
+
+  .features__items .feature:nth-child(n+3) {
+    margin-top: 1.5rem;
   }
 }
 
