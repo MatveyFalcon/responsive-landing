@@ -1,7 +1,8 @@
 @font-face {
-    font-family: $iconFont;;
-    src: url('../fonts/Socialico.woff') format('woff'),
-        url('../fonts/Socialico.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: $iconFont;
+	src:
+		url("../fonts/Socialico.woff") format("woff"),
+		url("../fonts/Socialico.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
 }

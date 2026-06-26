@@ -1,7 +1,6 @@
 .stage {
 	@include section();
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+
 	background-color: $primaryColor;
 	&__wrapper {
 		display: flex;
@@ -10,10 +9,6 @@
 		@media ($tablet) {
 			flex-direction: row;
 			justify-content: space-between;
-		}
-		@media ($desktop) {
-			padding-left: 0;
-			padding-right: 0;
 		}
 	}
 	&__title {
@@ -37,11 +32,14 @@
 
 		@media ($tablet) {
 			max-width: 300px;
+			flex-shrink: 0;
+			margin-left: 4rem;
 			margin-bottom: 0;
 		}
 		@media ($desktop) {
 			max-width: 469px;
 			margin-bottom: 0;
+			margin-left: 8rem;
 		}
 	}
 }
