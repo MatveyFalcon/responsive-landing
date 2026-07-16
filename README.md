@@ -38,7 +38,7 @@
 
 Проект доступен по ссылке:
 
-👉 https://your-username.github.io/responsive-landing/
+👉 https://matveyfalcon.github.io/responsive-landing/
 
 ---
 
@@ -52,7 +52,8 @@
 
 ## 📸 Превью
 
-(сюда добавь скриншот лендинга)
+<img width="1559" height="776" alt="image" src="https://github.com/user-attachments/assets/c12174ed-0886-4286-8dc7-b8cb0c10b59f" />
+
 
 ---
 
